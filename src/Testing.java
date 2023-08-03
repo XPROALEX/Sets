@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class Testing {
@@ -13,5 +14,16 @@ public class Testing {
         daysOfWeekHashSet.add("Domenica");
 
         System.out.println("HashSet : " + daysOfWeekHashSet);
+
+        Set<String> daysOfWeekLinkedHashSet = new LinkedHashSet<>();
+        daysOfWeekLinkedHashSet.add("Lunedì");
+        daysOfWeekLinkedHashSet.add("Martedì");
+        daysOfWeekLinkedHashSet.add("Mercoledì");
+        daysOfWeekLinkedHashSet.add("Giovedì");
+        daysOfWeekLinkedHashSet.add("Venerdì");
+        daysOfWeekLinkedHashSet.add("Sabato");
+        daysOfWeekLinkedHashSet.add("Domenica");
+
+        System.out.println("LinkedHashSet : " + daysOfWeekLinkedHashSet);
     }
 }
