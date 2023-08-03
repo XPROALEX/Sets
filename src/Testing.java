@@ -25,5 +25,7 @@ public class Testing {
         daysOfWeekLinkedHashSet.add("Domenica");
 
         System.out.println("LinkedHashSet : " + daysOfWeekLinkedHashSet);
+
+        System.out.println("Is the first Set equal to the second one? " + daysOfWeekHashSet.equals(daysOfWeekLinkedHashSet));
     }
 }
